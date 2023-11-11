@@ -164,7 +164,7 @@ sonar_dependent_variables <- dataset[, 61]
 # the recommended defaults for each parameter, i.e.,
 # mtry=floor(sqrt(ncol(sonar_independent_variables))) or mtry=7
 
-seed <- 7
+  seed <- 7
 metric <- "Accuracy"
 
 train_control <- trainControl(method = "repeatedcv", number = 10, repeats = 3)
